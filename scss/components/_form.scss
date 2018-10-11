@@ -1,0 +1,20 @@
+.contact-form {
+	
+	input,
+	textarea {
+		border-radius: 0;
+		border-color: $dd-header-border;
+		
+		&:focus {
+			border-color: $dd-teal;
+			box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(50, 156, 157,.6);
+		}
+	}
+	
+	[type="submit"] {
+		&:focus {
+			outline: none;
+		}
+	}
+	
+}

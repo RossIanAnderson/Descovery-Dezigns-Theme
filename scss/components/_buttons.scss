@@ -1,0 +1,12 @@
+.btn {
+	border-radius: 0px;
+
+	&-dd-teal {
+	  @include button-variant($btn-dd-teal-color, $btn-dd-teal-bg, $btn-dd-teal-border);
+	}
+	
+	&-dd-magenta {
+	  @include button-variant($btn-dd-magenta-color, $btn-dd-magenta-bg, $btn-dd-magenta-border);
+	}
+
+}

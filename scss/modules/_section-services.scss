@@ -1,0 +1,14 @@
+.services {
+	
+	padding: 20px 0 0 0;
+	
+	&.card {
+			
+		&.card-block {
+			background: $dd-header-background;
+			border-color: $dd-header-background;
+		}
+		
+	}
+	
+}

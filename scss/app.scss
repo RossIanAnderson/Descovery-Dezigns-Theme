@@ -1,0 +1,23 @@
+@import 'base/bootstrap';
+@import 'base/variables';
+@import 'base/type';
+@import 'base/scaffolding';
+
+@import 'components/alerts';
+@import 'components/buttons';
+@import 'components/carousel';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/panel';
+@import 'components/navbar';
+	
+@import 'modules/section-title';
+@import 'modules/section-about';
+@import 'modules/section-services'; 		
+@import 'modules/section-social';
+@import 'modules/contact-form';
+
+/*
+@import 'pages/home';
+@import 'pages/contact';
+*/

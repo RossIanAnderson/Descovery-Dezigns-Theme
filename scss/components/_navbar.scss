@@ -1,0 +1,56 @@
+.navbar-dd {
+	
+	background: $dd-header-background;
+	border-bottom: 2px solid $dd-header-border;
+	margin: 0;
+	border-radius: 0;
+	//height: 110px;
+	
+	.navbar-brand,
+	.navbar-nav li a {
+	    line-height: 80px;
+	    color: $dd-teal;
+	    
+	    &:hover {
+		    background-color: $dd-header-background;
+		    color: darken($dd-teal, 10%);
+	    }
+	}
+	
+	.navbar-brand {
+		width: 300px;
+		height: 110px;
+		background-repeat: no-repeat;
+		background-position: 10px;
+
+		@include img-retina('../img/logo.png', '../img/logo@2x.png', 300px, 85px);
+	}
+	
+	
+	.navbar-toggle {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		
+		.icon-bar {
+			background: $dd-teal;
+			width: 25%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	
+	@media screen and (max-width: 768px) {
+		.navbar-brand {
+			float: none !important;
+			display: block !important;
+			margin: 0 auto !important;
+			background-position: center center;
+		}
+		
+		.navbar-nav li a {
+	    line-height: 40px;
+		}
+	}
+	
+}

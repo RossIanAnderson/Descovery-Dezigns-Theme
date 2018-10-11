@@ -1,0 +1,12 @@
+.home {
+	
+	section {
+		padding: 50px 0;
+		border-bottom: 2px solid $dd-header-border;
+	}
+	
+	@import 'modules/section-tagline';
+	@import 'modules/section-about';
+	@import 'modules/section-services'; 
+	
+}

@@ -1,0 +1,12 @@
+.alert {
+	border-radius: 0;
+	padding: 11px;
+		
+	&-dd-teal {
+	  @include alert-variant( $btn-dd-teal-bg, $btn-dd-teal-border, $btn-dd-teal-color);
+	}
+	
+	&-dd-magenta {
+	  @include alert-variant($btn-dd-magenta-bg, $btn-dd-magenta-border, $btn-dd-magenta-color);
+	}
+}
